@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_DEPRECATE
 
+#include <stdio.h>
 #include <graphics.h>
 #include <iostream>
 #include <math.h>
@@ -32,17 +33,17 @@ public:
             case VK_RIGHT:
                 move_r = true;
                 break;
-            case VK_SPACE://¿Õ¸ñ¼ü£¬ÌøÔ¾
+            case VK_SPACE://ç©ºæ ¼é”®ï¼Œè·³è·ƒ
                 if (!is_fall)
                     is_jump = true;
                 break;
-            case 0x46://f¼ü£¬³å´Ì
+            case 0x46://fé”®ï¼Œå†²åˆº
                 is_dashing = true;
                 break;
-            case 0x41://a¼ü£¬Ïò×óÒÆ¶¯
+            case 0x41://aé”®ï¼Œå‘å·¦ç§»åŠ¨
                 move_l = true;
                 break;
-            case 0x44://d¼ü£¬ÏòÓÒÒÆ¶¯
+            case 0x44://dé”®ï¼Œå‘å³ç§»åŠ¨
                 move_r = true;
                 break;
             }break;
@@ -56,10 +57,10 @@ public:
             case VK_RIGHT:
                 move_r = false;
                 break;
-            case 0x41://a¼ü£¬Ïò×óÒÆ¶¯
+            case 0x41://aé”®ï¼Œå‘å·¦ç§»åŠ¨
                 move_l = false;
                 break;
-            case 0x44://d¼ü£¬ÏòÓÒÒÆ¶¯
+            case 0x44://dé”®ï¼Œå‘å³ç§»åŠ¨
                 move_r = false;
                 break;
             }break;
@@ -157,10 +158,10 @@ int main() {
                 point_pos.y = msg.y; break;
             case WM_KEYDOWN:
                 switch (msg.vkcode) {
-                case 0x50://p¼ü£¬ÓÃÓÚÍË³ö
+                case 0x50://pé”®ï¼Œç”¨äºé€€å‡º
                     running = false;
                     break;
-                case VK_OEM_3://~¼ü£¬ÏÔÊ¾Åö×²Ïä
+                case VK_OEM_3://~é”®ï¼Œæ˜¾ç¤ºç¢°æ’ç®±
                     if (frame_display) frame_display = false;
                     else frame_display = true;
                 }break;
