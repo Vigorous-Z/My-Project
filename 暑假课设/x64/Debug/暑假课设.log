@@ -1,2 +1,10 @@
 ﻿  FileName.cpp
+C:\Users\Lenovo\source\repos\暑假课设\暑假课设\FileName.cpp(230,65): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\Lenovo\source\repos\暑假课设\暑假课设\FileName.cpp(230,86): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\Lenovo\source\repos\暑假课设\暑假课设\FileName.cpp(230,122): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\Lenovo\source\repos\暑假课设\暑假课设\FileName.cpp(230,146): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\Lenovo\source\repos\暑假课设\暑假课设\FileName.cpp(126,33): warning C4244: “+=”: 从“float”转换到“LONG”，可能丢失数据
+C:\Users\Lenovo\source\repos\暑假课设\暑假课设\FileName.cpp(127,33): warning C4244: “+=”: 从“float”转换到“LONG”，可能丢失数据
+C:\Users\Lenovo\source\repos\暑假课设\暑假课设\FileName.cpp(414,19): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Lenovo\source\repos\暑假课设\暑假课设\FileName.cpp(334,11): warning C4101: “path_file”: 未引用的局部变量
   暑假课设.vcxproj -> C:\Users\Lenovo\source\repos\暑假课设\x64\Debug\暑假课设.exe

@@ -23,17 +23,17 @@ public:
 	}
 
 	void on_enter() {
-		cout << "进入主菜单" << endl;
+		cout << "进入局内游戏" << endl;
 	}
 	void on_update(bool* running) {
-		cout << "主菜单正在运行..." << endl;
+		cout << "局内游戏正在运行..." << endl;
 		if (is_exit) {
 			on_exit();
 			*running = false;
 		}
 	}
 	void on_draw() {
-		outtextxy(10, 10, _T("主菜单绘制内容"));
+		outtextxy(10, 10, _T("局内游戏绘制内容"));
 	}
 	void on_input(const ExMessage& msg) {
 		switch (msg.message) {
